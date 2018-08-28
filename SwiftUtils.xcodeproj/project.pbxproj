@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		53658F202135B233006F6DE4 /* SwiftUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53658F162135B232006F6DE4 /* SwiftUtils.framework */; };
-		53658F252135B233006F6DE4 /* SwiftUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53658F242135B233006F6DE4 /* SwiftUtilsTests.swift */; };
 		53658F272135B233006F6DE4 /* SwiftUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 53658F192135B233006F6DE4 /* SwiftUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53658F312135B5EB006F6DE4 /* HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53658F302135B5EB006F6DE4 /* HexString.swift */; };
+		53658F362135B797006F6DE4 /* HexStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53658F352135B797006F6DE4 /* HexStringTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +28,9 @@
 		53658F192135B233006F6DE4 /* SwiftUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftUtils.h; sourceTree = "<group>"; };
 		53658F1A2135B233006F6DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53658F1F2135B233006F6DE4 /* SwiftUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		53658F242135B233006F6DE4 /* SwiftUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUtilsTests.swift; sourceTree = "<group>"; };
 		53658F262135B233006F6DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53658F302135B5EB006F6DE4 /* HexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexString.swift; sourceTree = "<group>"; };
+		53658F352135B797006F6DE4 /* HexStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexStringTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				53658F192135B233006F6DE4 /* SwiftUtils.h */,
 				53658F1A2135B233006F6DE4 /* Info.plist */,
+				53658F302135B5EB006F6DE4 /* HexString.swift */,
 			);
 			path = SwiftUtils;
 			sourceTree = "<group>";
@@ -80,8 +83,8 @@
 		53658F232135B233006F6DE4 /* SwiftUtilsTests */ = {
 			isa = PBXGroup;
 			children = (
-				53658F242135B233006F6DE4 /* SwiftUtilsTests.swift */,
 				53658F262135B233006F6DE4 /* Info.plist */,
+				53658F352135B797006F6DE4 /* HexStringTests.swift */,
 			);
 			path = SwiftUtilsTests;
 			sourceTree = "<group>";
@@ -148,9 +151,11 @@
 				TargetAttributes = {
 					53658F152135B232006F6DE4 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					53658F1E2135B233006F6DE4 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -194,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53658F312135B5EB006F6DE4 /* HexString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53658F252135B233006F6DE4 /* SwiftUtilsTests.swift in Sources */,
+				53658F362135B797006F6DE4 /* HexStringTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +345,7 @@
 		53658F2B2135B233006F6DE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -355,6 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kurozu10344.SwiftUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +371,7 @@
 		53658F2C2135B233006F6DE4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -387,6 +396,8 @@
 		53658F2E2135B233006F6DE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftUtilsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -396,6 +407,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kurozu10344.SwiftUtilsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -404,6 +416,8 @@
 		53658F2F2135B233006F6DE4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftUtilsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
