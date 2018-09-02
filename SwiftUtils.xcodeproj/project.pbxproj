@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		535F3133213C2F5300055D46 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535F3132213C2F5300055D46 /* JSON.swift */; };
+		535F3135213C2F5900055D46 /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535F3134213C2F5900055D46 /* JSONTests.swift */; };
 		53658F202135B233006F6DE4 /* SwiftUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53658F162135B232006F6DE4 /* SwiftUtils.framework */; };
 		53658F272135B233006F6DE4 /* SwiftUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 53658F192135B233006F6DE4 /* SwiftUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53658F312135B5EB006F6DE4 /* HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53658F302135B5EB006F6DE4 /* HexString.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		535F3132213C2F5300055D46 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		535F3134213C2F5900055D46 /* JSONTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTests.swift; sourceTree = "<group>"; };
 		53658F162135B232006F6DE4 /* SwiftUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53658F192135B233006F6DE4 /* SwiftUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftUtils.h; sourceTree = "<group>"; };
 		53658F1A2135B233006F6DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 				53658F192135B233006F6DE4 /* SwiftUtils.h */,
 				53658F1A2135B233006F6DE4 /* Info.plist */,
 				53658F302135B5EB006F6DE4 /* HexString.swift */,
+				535F3132213C2F5300055D46 /* JSON.swift */,
 			);
 			path = SwiftUtils;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 			children = (
 				53658F262135B233006F6DE4 /* Info.plist */,
 				53658F352135B797006F6DE4 /* HexStringTests.swift */,
+				535F3134213C2F5900055D46 /* JSONTests.swift */,
 			);
 			path = SwiftUtilsTests;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53658F312135B5EB006F6DE4 /* HexString.swift in Sources */,
+				535F3133213C2F5300055D46 /* JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53658F362135B797006F6DE4 /* HexStringTests.swift in Sources */,
+				535F3135213C2F5900055D46 /* JSONTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
