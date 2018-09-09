@@ -15,6 +15,7 @@
 		53658F362135B797006F6DE4 /* HexStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53658F352135B797006F6DE4 /* HexStringTests.swift */; };
 		538FC3DC214545ED007C8E45 /* URLEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC3DB214545ED007C8E45 /* URLEncode.swift */; };
 		538FC3DE21454857007C8E45 /* URLEncodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC3DD21454857007C8E45 /* URLEncodeTests.swift */; };
+		538FC3E021455050007C8E45 /* Either.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC3DF21455050007C8E45 /* Either.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		53658F352135B797006F6DE4 /* HexStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexStringTests.swift; sourceTree = "<group>"; };
 		538FC3DB214545ED007C8E45 /* URLEncode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncode.swift; sourceTree = "<group>"; };
 		538FC3DD21454857007C8E45 /* URLEncodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncodeTests.swift; sourceTree = "<group>"; };
+		538FC3DF21455050007C8E45 /* Either.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Either.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				53658F302135B5EB006F6DE4 /* HexString.swift */,
 				535F3132213C2F5300055D46 /* JSON.swift */,
 				538FC3DB214545ED007C8E45 /* URLEncode.swift */,
+				538FC3DF21455050007C8E45 /* Either.swift */,
 			);
 			path = SwiftUtils;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				538FC3E021455050007C8E45 /* Either.swift in Sources */,
 				538FC3DC214545ED007C8E45 /* URLEncode.swift in Sources */,
 				53658F312135B5EB006F6DE4 /* HexString.swift in Sources */,
 				535F3133213C2F5300055D46 /* JSON.swift in Sources */,
