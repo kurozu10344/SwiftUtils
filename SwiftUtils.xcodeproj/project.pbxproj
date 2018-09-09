@@ -13,6 +13,8 @@
 		53658F272135B233006F6DE4 /* SwiftUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 53658F192135B233006F6DE4 /* SwiftUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53658F312135B5EB006F6DE4 /* HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53658F302135B5EB006F6DE4 /* HexString.swift */; };
 		53658F362135B797006F6DE4 /* HexStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53658F352135B797006F6DE4 /* HexStringTests.swift */; };
+		538FC3DC214545ED007C8E45 /* URLEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC3DB214545ED007C8E45 /* URLEncode.swift */; };
+		538FC3DE21454857007C8E45 /* URLEncodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC3DD21454857007C8E45 /* URLEncodeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		53658F262135B233006F6DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53658F302135B5EB006F6DE4 /* HexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexString.swift; sourceTree = "<group>"; };
 		53658F352135B797006F6DE4 /* HexStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexStringTests.swift; sourceTree = "<group>"; };
+		538FC3DB214545ED007C8E45 /* URLEncode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncode.swift; sourceTree = "<group>"; };
+		538FC3DD21454857007C8E45 /* URLEncodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncodeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 				53658F1A2135B233006F6DE4 /* Info.plist */,
 				53658F302135B5EB006F6DE4 /* HexString.swift */,
 				535F3132213C2F5300055D46 /* JSON.swift */,
+				538FC3DB214545ED007C8E45 /* URLEncode.swift */,
 			);
 			path = SwiftUtils;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 				53658F262135B233006F6DE4 /* Info.plist */,
 				53658F352135B797006F6DE4 /* HexStringTests.swift */,
 				535F3134213C2F5900055D46 /* JSONTests.swift */,
+				538FC3DD21454857007C8E45 /* URLEncodeTests.swift */,
 			);
 			path = SwiftUtilsTests;
 			sourceTree = "<group>";
@@ -205,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				538FC3DC214545ED007C8E45 /* URLEncode.swift in Sources */,
 				53658F312135B5EB006F6DE4 /* HexString.swift in Sources */,
 				535F3133213C2F5300055D46 /* JSON.swift in Sources */,
 			);
@@ -216,6 +223,7 @@
 			files = (
 				53658F362135B797006F6DE4 /* HexStringTests.swift in Sources */,
 				535F3135213C2F5900055D46 /* JSONTests.swift in Sources */,
+				538FC3DE21454857007C8E45 /* URLEncodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
