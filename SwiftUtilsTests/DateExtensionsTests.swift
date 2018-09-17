@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import SwiftUtils
+@testable import SwiftUtils
 
 class DateExtensionsTests: XCTestCase {
     
