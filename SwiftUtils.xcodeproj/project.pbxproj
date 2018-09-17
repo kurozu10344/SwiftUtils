@@ -25,6 +25,8 @@
 		538FC3EF214FDD2C007C8E45 /* StringExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC3EE214FDD2C007C8E45 /* StringExtensionsTests.swift */; };
 		538FC3F1214FE713007C8E45 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC3F0214FE713007C8E45 /* ArrayExtensions.swift */; };
 		538FC3F3214FE76B007C8E45 /* ArrayExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC3F2214FE76B007C8E45 /* ArrayExtensionsTests.swift */; };
+		538FC3F5214FEA24007C8E45 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC3F4214FEA24007C8E45 /* CollectionExtensions.swift */; };
+		538FC3F7214FEA54007C8E45 /* CollectionExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC3F6214FEA54007C8E45 /* CollectionExtensionsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		538FC3EE214FDD2C007C8E45 /* StringExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionsTests.swift; sourceTree = "<group>"; };
 		538FC3F0214FE713007C8E45 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		538FC3F2214FE76B007C8E45 /* ArrayExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensionsTests.swift; sourceTree = "<group>"; };
+		538FC3F4214FEA24007C8E45 /* CollectionExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtensions.swift; sourceTree = "<group>"; };
+		538FC3F6214FEA54007C8E45 /* CollectionExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtensionsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				538FC3EA214FD912007C8E45 /* StringExtensions.swift */,
 				538FC3EC214FD9E2007C8E45 /* NSAttributedStringExtensions.swift */,
 				538FC3E621455A9B007C8E45 /* DateExtensions.swift */,
+				538FC3F4214FEA24007C8E45 /* CollectionExtensions.swift */,
 				538FC3F0214FE713007C8E45 /* ArrayExtensions.swift */,
 			);
 			path = SwiftUtils;
@@ -126,6 +131,7 @@
 				538FC3E3214556DB007C8E45 /* OperatorsTests.swift */,
 				538FC3EE214FDD2C007C8E45 /* StringExtensionsTests.swift */,
 				538FC3E8214565B1007C8E45 /* DateExtensionsTests.swift */,
+				538FC3F6214FEA54007C8E45 /* CollectionExtensionsTests.swift */,
 				538FC3F2214FE76B007C8E45 /* ArrayExtensionsTests.swift */,
 			);
 			path = SwiftUtilsTests;
@@ -246,6 +252,7 @@
 				538FC3E2214556C3007C8E45 /* Operators.swift in Sources */,
 				538FC3DC214545ED007C8E45 /* URLEncode.swift in Sources */,
 				538FC3EB214FD912007C8E45 /* StringExtensions.swift in Sources */,
+				538FC3F5214FEA24007C8E45 /* CollectionExtensions.swift in Sources */,
 				53658F312135B5EB006F6DE4 /* HexString.swift in Sources */,
 				535F3133213C2F5300055D46 /* JSON.swift in Sources */,
 				538FC3F1214FE713007C8E45 /* ArrayExtensions.swift in Sources */,
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				538FC3EF214FDD2C007C8E45 /* StringExtensionsTests.swift in Sources */,
+				538FC3F7214FEA54007C8E45 /* CollectionExtensionsTests.swift in Sources */,
 				538FC3F3214FE76B007C8E45 /* ArrayExtensionsTests.swift in Sources */,
 				538FC3E9214565B1007C8E45 /* DateExtensionsTests.swift in Sources */,
 				53658F362135B797006F6DE4 /* HexStringTests.swift in Sources */,
