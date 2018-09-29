@@ -13,6 +13,8 @@
 		53658F272135B233006F6DE4 /* SwiftUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 53658F192135B233006F6DE4 /* SwiftUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53658F312135B5EB006F6DE4 /* HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53658F302135B5EB006F6DE4 /* HexString.swift */; };
 		53658F362135B797006F6DE4 /* HexStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53658F352135B797006F6DE4 /* HexStringTests.swift */; };
+		537306D9215FBD9B009E6C0D /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537306D8215FBD9B009E6C0D /* DictionaryExtensions.swift */; };
+		537306DB215FC33E009E6C0D /* DictionaryExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537306DA215FC33E009E6C0D /* DictionaryExtensionsTests.swift */; };
 		538FC3DC214545ED007C8E45 /* URLEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC3DB214545ED007C8E45 /* URLEncode.swift */; };
 		538FC3DE21454857007C8E45 /* URLEncodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC3DD21454857007C8E45 /* URLEncodeTests.swift */; };
 		538FC3E021455050007C8E45 /* Either.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC3DF21455050007C8E45 /* Either.swift */; };
@@ -49,6 +51,8 @@
 		53658F262135B233006F6DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53658F302135B5EB006F6DE4 /* HexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexString.swift; sourceTree = "<group>"; };
 		53658F352135B797006F6DE4 /* HexStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexStringTests.swift; sourceTree = "<group>"; };
+		537306D8215FBD9B009E6C0D /* DictionaryExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtensions.swift; sourceTree = "<group>"; };
+		537306DA215FC33E009E6C0D /* DictionaryExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtensionsTests.swift; sourceTree = "<group>"; };
 		538FC3DB214545ED007C8E45 /* URLEncode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncode.swift; sourceTree = "<group>"; };
 		538FC3DD21454857007C8E45 /* URLEncodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncodeTests.swift; sourceTree = "<group>"; };
 		538FC3DF21455050007C8E45 /* Either.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Either.swift; sourceTree = "<group>"; };
@@ -117,6 +121,7 @@
 				538FC3E621455A9B007C8E45 /* DateExtensions.swift */,
 				538FC3F4214FEA24007C8E45 /* CollectionExtensions.swift */,
 				538FC3F0214FE713007C8E45 /* ArrayExtensions.swift */,
+				537306D8215FBD9B009E6C0D /* DictionaryExtensions.swift */,
 			);
 			path = SwiftUtils;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 				538FC3E8214565B1007C8E45 /* DateExtensionsTests.swift */,
 				538FC3F6214FEA54007C8E45 /* CollectionExtensionsTests.swift */,
 				538FC3F2214FE76B007C8E45 /* ArrayExtensionsTests.swift */,
+				537306DA215FC33E009E6C0D /* DictionaryExtensionsTests.swift */,
 			);
 			path = SwiftUtilsTests;
 			sourceTree = "<group>";
@@ -249,6 +255,7 @@
 			files = (
 				538FC3E021455050007C8E45 /* Either.swift in Sources */,
 				538FC3ED214FD9E2007C8E45 /* NSAttributedStringExtensions.swift in Sources */,
+				537306D9215FBD9B009E6C0D /* DictionaryExtensions.swift in Sources */,
 				538FC3E2214556C3007C8E45 /* Operators.swift in Sources */,
 				538FC3DC214545ED007C8E45 /* URLEncode.swift in Sources */,
 				538FC3EB214FD912007C8E45 /* StringExtensions.swift in Sources */,
@@ -269,6 +276,7 @@
 				538FC3F3214FE76B007C8E45 /* ArrayExtensionsTests.swift in Sources */,
 				538FC3E9214565B1007C8E45 /* DateExtensionsTests.swift in Sources */,
 				53658F362135B797006F6DE4 /* HexStringTests.swift in Sources */,
+				537306DB215FC33E009E6C0D /* DictionaryExtensionsTests.swift in Sources */,
 				538FC3E4214556DB007C8E45 /* OperatorsTests.swift in Sources */,
 				535F3135213C2F5900055D46 /* JSONTests.swift in Sources */,
 				538FC3DE21454857007C8E45 /* URLEncodeTests.swift in Sources */,
