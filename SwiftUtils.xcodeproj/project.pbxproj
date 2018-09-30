@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5327622F216106F0001081F7 /* CryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327622E216106F0001081F7 /* CryptoTests.swift */; };
 		535F3133213C2F5300055D46 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535F3132213C2F5300055D46 /* JSON.swift */; };
 		535F3135213C2F5900055D46 /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535F3134213C2F5900055D46 /* JSONTests.swift */; };
 		53658F202135B233006F6DE4 /* SwiftUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53658F162135B232006F6DE4 /* SwiftUtils.framework */; };
@@ -15,6 +16,7 @@
 		53658F362135B797006F6DE4 /* HexStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53658F352135B797006F6DE4 /* HexStringTests.swift */; };
 		537306D9215FBD9B009E6C0D /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537306D8215FBD9B009E6C0D /* DictionaryExtensions.swift */; };
 		537306DB215FC33E009E6C0D /* DictionaryExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537306DA215FC33E009E6C0D /* DictionaryExtensionsTests.swift */; };
+		537306DD2160FF95009E6C0D /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537306DC2160FF95009E6C0D /* Crypto.swift */; };
 		538FC3DC214545ED007C8E45 /* URLEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC3DB214545ED007C8E45 /* URLEncode.swift */; };
 		538FC3DE21454857007C8E45 /* URLEncodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC3DD21454857007C8E45 /* URLEncodeTests.swift */; };
 		538FC3E021455050007C8E45 /* Either.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC3DF21455050007C8E45 /* Either.swift */; };
@@ -42,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5327622E216106F0001081F7 /* CryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTests.swift; sourceTree = "<group>"; };
 		535F3132213C2F5300055D46 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		535F3134213C2F5900055D46 /* JSONTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTests.swift; sourceTree = "<group>"; };
 		53658F162135B232006F6DE4 /* SwiftUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +56,7 @@
 		53658F352135B797006F6DE4 /* HexStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexStringTests.swift; sourceTree = "<group>"; };
 		537306D8215FBD9B009E6C0D /* DictionaryExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtensions.swift; sourceTree = "<group>"; };
 		537306DA215FC33E009E6C0D /* DictionaryExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtensionsTests.swift; sourceTree = "<group>"; };
+		537306DC2160FF95009E6C0D /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 		538FC3DB214545ED007C8E45 /* URLEncode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncode.swift; sourceTree = "<group>"; };
 		538FC3DD21454857007C8E45 /* URLEncodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncodeTests.swift; sourceTree = "<group>"; };
 		538FC3DF21455050007C8E45 /* Either.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Either.swift; sourceTree = "<group>"; };
@@ -116,6 +120,7 @@
 				538FC3DB214545ED007C8E45 /* URLEncode.swift */,
 				538FC3DF21455050007C8E45 /* Either.swift */,
 				538FC3E1214556C3007C8E45 /* Operators.swift */,
+				537306DC2160FF95009E6C0D /* Crypto.swift */,
 				538FC3EA214FD912007C8E45 /* StringExtensions.swift */,
 				538FC3EC214FD9E2007C8E45 /* NSAttributedStringExtensions.swift */,
 				538FC3E621455A9B007C8E45 /* DateExtensions.swift */,
@@ -134,6 +139,7 @@
 				535F3134213C2F5900055D46 /* JSONTests.swift */,
 				538FC3DD21454857007C8E45 /* URLEncodeTests.swift */,
 				538FC3E3214556DB007C8E45 /* OperatorsTests.swift */,
+				5327622E216106F0001081F7 /* CryptoTests.swift */,
 				538FC3EE214FDD2C007C8E45 /* StringExtensionsTests.swift */,
 				538FC3E8214565B1007C8E45 /* DateExtensionsTests.swift */,
 				538FC3F6214FEA54007C8E45 /* CollectionExtensionsTests.swift */,
@@ -253,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537306DD2160FF95009E6C0D /* Crypto.swift in Sources */,
 				538FC3E021455050007C8E45 /* Either.swift in Sources */,
 				538FC3ED214FD9E2007C8E45 /* NSAttributedStringExtensions.swift in Sources */,
 				537306D9215FBD9B009E6C0D /* DictionaryExtensions.swift in Sources */,
@@ -275,6 +282,7 @@
 				538FC3F7214FEA54007C8E45 /* CollectionExtensionsTests.swift in Sources */,
 				538FC3F3214FE76B007C8E45 /* ArrayExtensionsTests.swift in Sources */,
 				538FC3E9214565B1007C8E45 /* DateExtensionsTests.swift in Sources */,
+				5327622F216106F0001081F7 /* CryptoTests.swift in Sources */,
 				53658F362135B797006F6DE4 /* HexStringTests.swift in Sources */,
 				537306DB215FC33E009E6C0D /* DictionaryExtensionsTests.swift in Sources */,
 				538FC3E4214556DB007C8E45 /* OperatorsTests.swift in Sources */,
