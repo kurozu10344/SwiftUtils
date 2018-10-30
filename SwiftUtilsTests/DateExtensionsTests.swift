@@ -220,6 +220,53 @@ class DateExtensionsTests: XCTestCase {
         XCTAssertEqual(date?.second, 0)
     }
     
+    func testCountDaysBetween() {
+        var fromDate: Date!
+        var toDate: Date!
+        
+        fromDate = Date.from(year: 2001, month: 1, day: 1)
+        toDate = Date.from(year: 2001, month: 1, day: 1)
+        XCTAssertEqual(fromDate.countDaysBetween(toDate), 0)
+        
+        fromDate = Date.from(year: 2001, month: 1, day: 1)
+        toDate = Date.from(year: 2001, month: 1, day: 2)
+        XCTAssertEqual(fromDate.countDaysBetween(toDate), 1)
+        
+        fromDate = Date.from(year: 2001, month: 1, day: 1)
+        toDate = Date.from(year: 2001, month: 1, day: 31)
+        XCTAssertEqual(fromDate.countDaysBetween(toDate), 30)
+        
+        fromDate = Date.from(year: 2001, month: 1, day: 1)
+        toDate = Date.from(year: 2001, month: 2, day: 1)
+        XCTAssertEqual(fromDate.countDaysBetween(toDate), 31)
+        
+        fromDate = Date.from(year: 2001, month: 2, day: 1)
+        toDate = Date.from(year: 2001, month: 3, day: 1)
+        XCTAssertEqual(fromDate.countDaysBetween(toDate), 28)
+        
+        fromDate = Date.from(year: 2001, month: 1, day: 1)
+        toDate = Date.from(year: 2001, month: 12, day: 31)
+        XCTAssertEqual(fromDate.countDaysBetween(toDate), 364)
+        
+        fromDate = Date.from(year: 2001, month: 1, day: 1)
+        toDate = Date.from(year: 2002, month: 1, day: 1)
+        XCTAssertEqual(fromDate.countDaysBetween(toDate), 365)
+        
+        
+        // Leap Year (閏年)
+        fromDate = Date.from(year: 2004, month: 2, day: 1)
+        toDate = Date.from(year: 2004, month: 3, day: 1)
+        XCTAssertEqual(fromDate.countDaysBetween(toDate), 29)
+        
+        fromDate = Date.from(year: 2004, month: 1, day: 1)
+        toDate = Date.from(year: 2004, month: 12, day: 31)
+        XCTAssertEqual(fromDate.countDaysBetween(toDate), 365)
+        
+        fromDate = Date.from(year: 2004, month: 1, day: 1)
+        toDate = Date.from(year: 2005, month: 1, day: 1)
+        XCTAssertEqual(fromDate.countDaysBetween(toDate), 366)
+    }
+    
     func testString() {
         var dateComponents = DateComponents()
         dateComponents.year = 2000

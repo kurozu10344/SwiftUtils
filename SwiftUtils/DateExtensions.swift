@@ -91,6 +91,15 @@ public extension Date {
         return calendar.date(byAdding: component, to: self)
     }
     
+    public func countDaysBetween(_ toDate: Date) -> Int? {
+        let calendar = Calendar(identifier: .gregorian)
+        guard
+            let fromDay = calendar.ordinality(of: .day, in: .era, for: self),
+            let toDay = calendar.ordinality(of: .day, in: .era, for: toDate)
+            else { return nil }
+        return toDay - fromDay
+    }
+    
     public func string(usingFormat dateFormat: String) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = dateFormat
