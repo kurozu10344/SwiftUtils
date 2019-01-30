@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import SwiftUtils
 
 class CryptoTests: XCTestCase {
     

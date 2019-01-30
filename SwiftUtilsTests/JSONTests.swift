@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import SwiftUtils
+import SwiftUtils
 
 class JSONTests: XCTestCase {
     

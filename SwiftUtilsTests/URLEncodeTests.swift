@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import SwiftUtils
 
 class URLEncodeTests: XCTestCase {
     func testURLEncodedString() {
